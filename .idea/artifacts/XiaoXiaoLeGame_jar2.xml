@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="XiaoXiaoLeGame:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/XiaoXiaoLeGame_jar2</output-path>
+    <root id="root">
+      <element id="archive" name="XiaoXiaoLeGame.jar">
+        <element id="module-output" name="XiaoXiaoLeGame" />
+      </element>
+      <element id="directory" name="library">
+        <element id="file-copy" path="$PROJECT_DIR$/jl1.0.1.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>
