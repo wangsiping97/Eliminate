@@ -216,33 +216,6 @@ public class Game extends JFrame {
                                         }
                                     }
                                     nStep.setText(manager.getStep() + "");
-
-//                                    if (success()) {
-//                                        status.setName("win");
-//                                        status.repaint();
-//                                        if (!isFinished) {
-//                                            try {
-//                                                bgm.stop();
-//                                                MusicPlayer win = new MusicPlayer("胜利", false);
-//                                                win.start();
-//                                            } catch (Exception ex) {
-//                                            }
-//                                        }
-//                                        isFinished = true;
-//                                    }
-//                                    else if (manager.getStep() == 0) {
-//                                        status.setName("lose");
-//                                        status.repaint();
-//                                        if (!isFinished) {
-//                                            try {
-//                                                bgm.stop();
-//                                                MusicPlayer lose = new MusicPlayer("失败", false);
-//                                                lose.start();
-//                                            } catch (Exception ex) {
-//                                            }
-//                                        }
-//                                        isFinished = true;
-//                                    }
                                     try {
                                         if (isBoom) Thread.sleep(300); else Thread.sleep(100);
                                     } catch (Exception ex) {System.out.print("exxxx");}
